@@ -11,6 +11,20 @@
 // 2-masala foydalanuvchidan 3-xonalik son oling ular ichida eng kattasi qaysi honada ekanligi aniqlovchi dastur yozing va consolega chiqaring
 //===============================================
 
+// let son12 = +prompt("uch xonali son kiriting");
+
+// let yuzlik = Math.floor(son12 / 100);
+// let onlik = Math.floor((son12 % 100) / 10);
+// let birlik = son12 % 10;
+
+// if (yuzlik >= onlik && yuzlik >= birlik) {
+//   console.log("Eng kattasi yuzlik xonasida:", yuzlik);
+// } else if (onlik >= yuzlik && onlik >= birlik) {
+//   console.log("Eng kattasi onlik xonasida:", onlik);
+// } else {
+//   console.log("Eng kattasi birlik xonasida:", birlik);
+// }
+
 //3-maslaa sonning ishorasini aniqlovchi dastur yozing bunda console.log musbat manfiy yoki nol degan stringlar qaytarsin
 //===============================================
 
@@ -134,7 +148,7 @@
 //===============================================
 
 // console.log(hammasi);
-// let yil = 2056;
+// let yil = 2078;
 
 // if ((yil % 4 === 0 && yil % 100 !== 0) || yil % 400 === 0) {
 //   console.log("kabisa yili");
@@ -155,3 +169,26 @@
 //   abc = b;
 // }
 // console.log("Eng kichik son:", kichik);
+
+// 7-savol let const var kalit sozlarini bir birdan farqini yozib qoldiring
+
+//===============================================
+// 7. let, const, var farqi
+// var eski usul qayta e'lon qilish mumkin function scopeva tepasiga ham chiqarilishi mumkin
+
+// var son = 10;
+// var son2 = 20;
+// mumkin
+
+// let zamonaviy qayta e'lon qilib bo'lmaydi block scope
+
+// let son = 10;
+// let son2 = 20;
+// mumkin emas
+
+// const
+// o'zgarmas qiymat
+// e'lon qilganda qiymat berish shart
+
+// const son = 10;
+// const bu o'ziga o'zgarmas qiymatlarni o'z ichiga oladi
